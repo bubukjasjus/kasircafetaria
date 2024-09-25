@@ -11,7 +11,7 @@
 <body>
     <a href="/about">About</a>
     <a href="/home">Home</a>
-    <a href="/contact">Contact Us</a>
+    <a href="/contactus">Contact Us</a>
     <a href="/ourteam">Our Team</a>
     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum saepe aut asperiores. Sunt, excepturi libero iste
         eligendi sequi incidunt dolore modi? Vero quaerat repellat error, sapiente beatae odio rerum maiores.</h4>

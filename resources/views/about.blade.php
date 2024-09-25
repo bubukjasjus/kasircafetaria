@@ -7,7 +7,7 @@
     <title>About</title>
 </head>
 <body>
-    <a href="/contact">Contact Us</a>
+    <a href="/contactus">Contact Us</a>
     <a href="/home">Home</a>
     <a href="/Ourteam">Our Team</a>
     <a href="/program">Program</a>

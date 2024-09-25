@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('home');
 });
 Route::get('/about', function () {
-    return view('home');
+    return view('about');
 });
 
 Route::get('/ourteam', function () {
@@ -15,8 +15,8 @@ Route::get('/ourteam', function () {
 Route::get('/program', function () {
     return view('program');
 });
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/contactus', function () {
+    return view('contactus');
 });
 
 Route::fallback(function () {

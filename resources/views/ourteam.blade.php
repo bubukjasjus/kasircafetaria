@@ -9,7 +9,7 @@
 <body>
     <a href="/about">About</a>
     <a href="/home">Home</a>
-    <a href="/contact">Contact Us</a>
+    <a href="/contactus">Contact Us</a>
     <a href="/program">Program</a>
     <h1>We Are the coolest Team **(•_•) ** </h1>
 </body>
