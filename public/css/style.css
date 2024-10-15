@@ -1,0 +1,113 @@
+* {
+    font-family: "Poppins";
+}
+
+body {
+    overflow-x: hidden;
+    
+}
+
+.nav {
+    background-color: #EAE2B7;
+    padding-bottom: 10px;
+}
+
+.nav-link {
+    color: black !important;
+    
+
+}
+
+.nav-link:hover {
+    color: orange !important;
+
+}
+
+
+.fot {
+    
+    background-color: #B68973;
+    width: 100%;
+}
+footer{
+    width: 100%;
+border-top: 10px,solid,black;
+}
+
+.intro {
+    background-color: #EAE2B7;
+    height: 500px;
+    position: relative;
+    padding: 20px;
+}
+
+.burger {
+    bottom: 10px;
+    right: 60px;
+    width: 350px;
+    transform: rotate(-15deg);
+    height: auto;
+    position: absolute;
+}
+
+.menufav {
+    background-color: #F5DA89;
+}
+
+.food-item {
+    background-color: #264653;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+.about-section{
+    background-color: #EAE2B7
+}
+
+.team-section{
+    background-color:#EAE2B7
+}
+.vision-mission{
+    background-color: #EAE2B7;
+}
+.card {
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.card-body {
+    background-color: transparent;
+    padding: 10px;
+}
+
+.food-text {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about-section h2 {
+    color: #e74c3c;
+}
+
+.card {
+    border: none;
+    background-color: #f8f9fa;
+}
