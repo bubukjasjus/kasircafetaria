@@ -26,72 +26,20 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <a href="page1.html" class="disable">
+                @foreach($data as $item)
+                    <div class="col-4 mb-3">
                         <div class="card">
-                            <div class="food-item card-img-top"></div>
+                            <img src="{{ asset('storage/'.$item->gambar) }}" alt="{{ $item->nama_makanan }}" class="food-item card-img-top">
                             <div class="card-body">
-                                <p class="food-text">Mie Ayam Ibu Aisyah</p>
+                                <h5 class="food-text">{{ $item->nama_makanan }}</h5>
+                                <p>Harga: Rp {{ number_format($item->harga, 0, ',', '.') }}</p>
+                                <p>Stok: {{ $item->stok }} item</p>
+                                <a href="{{ route('toko-makanan.show', $item->id) }}" class="btn btn-info">Detail</a>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="page2.html">
-                        <div class="card">
-                            <div class="food-item card-img-top"></div>
-                            <div class="card-body">
-                                <p class="food-text">Sate Madura</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="page3.html">
-                        <div class="card">
-                            <div class="food-item card-img-top"></div>
-                            <div class="card-body">
-                                <p class="food-text">Soto Banjar</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-4">
-                    <a href="page4.html">
-                        <div class="card">
-                            <div class="food-item card-img-top"></div>
-                            <div class="card-body">
-                                <p class="food-text">Nasi Goreng Fatmawati</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="page5.html">
-                        <div class="card">
-                            <div class="food-item card-img-top"></div>
-                            <div class="card-body">
-                                <p class="food-text">Bakso Urat Bejo</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-4">
-                    <a href="page6.html">
-                        <div class="card">
-                            <div class="food-item card-img-top"></div>
-                            <div class="card-body">
-                                <p class="food-text">Bakso Urat Bejo</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>
-    </div>
-
-@endsection
+    @endsection
